@@ -291,7 +291,7 @@ a{
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
     row-gap: 48px;
 }
 
@@ -301,9 +301,9 @@ a{
 
 .portfolio-card {
     border: 1px solid #e7e9fc;
-    padding: 32px 16px;
-    background-color: #ffffff;
     border-top: none;
+    padding: 32px 16px;
+    background-color: #fff;
 }
 
 .portfolio-title {
@@ -326,9 +326,7 @@ a{
 
 .footer-logo {
     display: inline-block;
-    /* ✅ робимо посилання "напівблоком" */
     margin-bottom: 16px;
-    /* ✅ відступ від тексту */
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
