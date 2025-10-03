@@ -293,6 +293,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
@@ -303,6 +304,7 @@ a{
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     background-color: #ffffff;
+    border-top: none;
 }
 
 .portfolio-title {
