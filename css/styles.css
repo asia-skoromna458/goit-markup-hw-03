@@ -51,8 +51,6 @@ a{
 .header-nav{
     display: flex;
     align-items: center;
-    gap: 76px;
-
     }
 .list-nav{
     display: flex;
@@ -67,7 +65,9 @@ a{
         text-transform: uppercase;
         color: #4d5ae5;
 }
-
+.header-logo {
+    margin-right: 76px;
+}
 .header-logo .logo-part {
     color: #2e2f42;
 }
